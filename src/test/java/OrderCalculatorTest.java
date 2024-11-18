@@ -94,6 +94,6 @@ public class OrderCalculatorTest {
     public void exceptionTest() {
         OrderCalculator calculator = new OrderCalculator();
         double total =calculator.calculateTotalPrice(new double[]{0,200},"",false,null);
-    Assertions.assertThrows(IllegalArgumentException()-> )
+
     }
 }
